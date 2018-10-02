@@ -47,9 +47,9 @@ namespace ArrayExercises
             fibo.Add(1);
             for (int i = 2; i < 50; i++)
             {
-                fibo[i] = fibo[i - 1] + fibo[i - 2];
+                fibo.Add(i); = fibo(i - 1) + fibo[i - 2];
             }
-
+             
             for (int i = 0; i < 50; i++)
             {
                 Console.WriteLine(fibo[i]);
